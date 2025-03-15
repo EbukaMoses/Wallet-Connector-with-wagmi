@@ -1,5 +1,5 @@
 import { IoClose } from "react-icons/io5"
-import img from '/images/6.png'
+// import img from '/images/6.png'
 import m1 from '/images/m1.svg'
 import m2 from '/images/m2.svg'
 

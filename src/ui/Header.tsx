@@ -3,11 +3,8 @@
 import { FaWallet } from "react-icons/fa";
 import { MdContentCopy } from "react-icons/md";
 
-// interface ButtonProps {
-//     onClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
-//     setModal: React.Dispatch<React.SetStateAction<boolean>>;
-// }
-const Header = ({ setModal, connectClick, selectedConnector, handleConnectWallet, connectors, handleDisconnect, address }: { setModal: React.Dispatch<React.SetStateAction<boolean>>, connectClick: boolean, selectedConnector: any, connectors: any, handleDisconnect: () => void, address: string, handleConnectWallet: () => void }) => {
+
+const Header = ({ setModal, connectClick, selectedConnector, handleConnectWallet, connectors, handleDisconnect, address }: { setModal: any, connectClick: any, selectedConnector: any, connectors: any, handleDisconnect: any, address: any, handleConnectWallet: any }) => {
     return (
         <div className="flex justify-end items-center w-full py-4 px-20 bg-[#010323]">
             {!selectedConnector ? (

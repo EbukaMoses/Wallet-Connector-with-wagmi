@@ -52,7 +52,6 @@ function App() {
     console.log('Switching to chain ID:', chainId)
     await switchChain({ chainId })
   }
-  console.log(connectors)
 
   return (
     <div className='relative bg-gradient-to-br from-[#0a0a23] to-[#122571] min-h-screen'>
